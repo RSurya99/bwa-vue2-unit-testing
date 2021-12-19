@@ -20,5 +20,15 @@ describe('RandomGenerator', () => {
     ).toBeTruthy()
   })
 
-  test.skip('if number greater than 90 will appear message', () => {})
+  test('if number greater than 90 will appear message', async () => {
+    const button = wrapper.find('[data-testid="btn"]')
+    button.trigger('click')
+    await wrapper.vm.$nextTick()
+    const randomNumber = wrapper.find('[data-testid="randomNumberTest"]').text()
+    if (randomNumber > 90) {
+      expect(wrapper.find('[data-testid="messageTest"]').exists()).toBeTruthy()
+    } else {
+      expect(wrapper.find('[data-testid="messageTest"]').exists()).toBeFalsy()
+    }
+  })
 })
