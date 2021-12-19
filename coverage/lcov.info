@@ -1,4 +1,33 @@
 TN:
+SF:D:\Ngoding\BWA\Vue 2 Testing\basic_vue_test_utils\src\components\Counter.vue
+FN:14,(anonymous_1)
+FN:20,(anonymous_2)
+FN:27,(anonymous_3)
+FNF:3
+FNH:3
+FNDA:5,(anonymous_1)
+FNDA:2,(anonymous_2)
+FNDA:3,(anonymous_3)
+DA:15,5
+DA:21,2
+DA:22,1
+DA:24,1
+DA:28,3
+DA:29,1
+DA:30,2
+DA:31,1
+LF:8
+LH:8
+BRDA:21,0,0,1
+BRDA:21,0,1,1
+BRDA:28,1,0,1
+BRDA:28,1,1,2
+BRDA:30,2,0,1
+BRDA:30,2,1,1
+BRF:6
+BRH:6
+end_of_record
+TN:
 SF:D:\Ngoding\BWA\Vue 2 Testing\basic_vue_test_utils\src\components\EmailValidation.vue
 FN:14,(anonymous_1)
 FN:21,(anonymous_2)
